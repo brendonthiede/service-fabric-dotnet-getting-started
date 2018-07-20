@@ -45,7 +45,7 @@ namespace WebService
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/GettingStartedApplication/WebService/Home/Error");
             }
 
             app.UseStaticFiles();
