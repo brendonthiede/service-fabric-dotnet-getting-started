@@ -20,6 +20,6 @@
                                     AzureActiveDirectory="true"
                                     ServerCertThumbprint="0123456789012345678901234567890123456789" />
   -->
-  <ClusterConnectionParameters ConnectionEndpoint="vs2017e2e.eastus2.cloudapp.azure.com:19000" />
+  <ClusterConnectionParameters ConnectionEndpoint="micourtfabricdemo.eastus.cloudapp.azure.com:19000" X509Credential="true" ServerCertThumbprint="C8DBE3D4C653277A2D97DE5D86BF14BE4F7EF272" FindType="FindByThumbprint" FindValue="C8DBE3D4C653277A2D97DE5D86BF14BE4F7EF272" StoreLocation="CurrentUser" StoreName="My" />
   <ApplicationParameterFile Path="..\ApplicationParameters\Cloud.xml" />
 </PublishProfile>
